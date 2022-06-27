@@ -13,21 +13,19 @@ A Google Cloud Storage adapter for [flysystem](https://github.com/thephpleague/f
 ## Installation
 
 ```bash
-composer require superbalist/flysystem-google-storage
 
-and change composer.json =>
+change composer.json =>
 
 {
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/WouterPM/flysystem-google-cloud-storage"
+            "url": "https://github.com/wouterpm/flysystem-google-cloud-storage"
         }
-    ],
-    "require": {
-        "superbalist/laravel-google-cloud-storage": "dev-bugfix"
-    }
+    ]
 }
+
+composer require superbalist/flysystem-google-storage:dev-master
 
 ```
 
